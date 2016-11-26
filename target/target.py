@@ -10,6 +10,5 @@ class Target:
 
 
 if __name__ == '__main__':
-    print Target().token
-    print Target().token2()
+    print Target().token # pragma: no cover
 
